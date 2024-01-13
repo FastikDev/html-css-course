@@ -2,12 +2,11 @@
     background-color: red;
 }
 
-.highlighted,
-.company-data {
+.highlighted, .company-date {
     color: yellow;
 }
 
-ul.user-date {
+li.user-date {
     font-size: 24px;
 }
 
