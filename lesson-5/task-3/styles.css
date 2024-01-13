@@ -2,8 +2,7 @@
     background-color: red;
 }
 
-.highlighted,
-.company-data {
+.highlighted, .company-date {
     color: yellow;
 }
 
