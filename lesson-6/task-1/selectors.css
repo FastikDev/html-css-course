@@ -19,9 +19,9 @@ a[lang*="en"] {
 }
 
 a[href*="www"] {
-    color: blue;
+    color: green;
 }
 
-[ttitle*="popular"] {
+a[ttitle*="popular"] {
     font-size: 24px;
 }
