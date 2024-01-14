@@ -6,7 +6,7 @@ img[src$=".jpg"] {
     margin-left: 50px;
 }
 
-[data-description*="even"] {
+ul li[data-description~="even"] {
     background-color: gray;
 }
 
