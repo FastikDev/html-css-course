@@ -19,7 +19,7 @@ a[lang~="en"] {
 }
 
 a[href*="www"] {
-    color: green;
+    color: blue;
 }
 
 [ttitle*="popular"] {
