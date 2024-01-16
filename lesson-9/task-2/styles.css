@@ -11,6 +11,7 @@ section {
 footer {
     height: 30px;
     border: 2px solid black;
+    clear: both;
 }
 
 .container {
@@ -27,8 +28,4 @@ footer {
 .green {
     background-color: green;
     float: left;
-}
-
-.footer {
-    clear: both;
 }
