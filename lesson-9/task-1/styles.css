@@ -27,7 +27,7 @@ div {
 .tip {
   opacity: 1;
   background-color: whitesmoke;
-  padding:0 8px;
+  padding: 0 8px;
 }
 
 .green {
@@ -52,11 +52,13 @@ div {
 }
 
 .absolute-parent {
+  position: absolute;
   bottom: 20px;
-  right: 50px;
+  right:  50px;
 }
 
 .fixed-parent {
+  position: fixed;
   bottom: 20px;
   left: 30px;
 }
