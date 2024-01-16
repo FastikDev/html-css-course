@@ -27,7 +27,7 @@ div {
 .tip {
   opacity: 1;
   background-color: whitesmoke;
-  padding: 8px;
+  padding:0 8px;
 }
 
 .green {
