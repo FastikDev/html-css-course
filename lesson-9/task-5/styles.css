@@ -12,14 +12,15 @@
 }
 
 .nav-item {
-    box-sizing:border-box;
-    position: relative;
     float: left;
     color: white;
-    line-height: 50%;
-    list-style-type: none;
     margin-left: 16px;
-    height: 100%;
+}
+
+.nav-list {
+    margin: 0;
+    line-height: 40px;
+    list-style: none;
 }
 
 .content {
