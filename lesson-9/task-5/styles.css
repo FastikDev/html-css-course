@@ -7,6 +7,7 @@
 }
 
 .navigation {
+    position: relative;
     height: 40px;
 }
 
@@ -14,15 +15,16 @@
     float: left;
     margin-left: 16px;
     color: white;
-    line-height:50%;
+    line-height: 50%;
     list-style-type: none;
+    height: 100%;
+    margin-left: 16px;
 }
 
 .content {
     background-color: beige;
     height: 5000px;
 }
-
 
 .head {
     width: 200px;
