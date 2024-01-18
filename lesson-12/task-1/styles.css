@@ -10,6 +10,7 @@ section {
 h1 {
     word-spacing: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 b {
@@ -21,6 +22,10 @@ b {
 
 a {
     text-decoration: none;
+}
+
+p {
+    line-hight: 28px;
 }
 
 em {
