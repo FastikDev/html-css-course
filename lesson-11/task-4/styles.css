@@ -1,0 +1,16 @@
+.text {
+    margin: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip {
+    display: inline-block;
+    background-color: gray;
+    position: absolute;
+    bottom: -40px;
+    padding: 8px;
+    border-radius: 4px;
+}
