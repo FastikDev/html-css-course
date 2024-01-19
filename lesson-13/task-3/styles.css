@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+.header-text {
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:  96px;
+    font-family: Arial, Helvetica, sans-selif;
+    font-weight: 700;
+    background: linear-gradient(45deg, yellow, red);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
