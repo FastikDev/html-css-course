@@ -1,5 +1,5 @@
 html {
-    font-family: Roboto, sent-selif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -10,6 +10,7 @@ section {
 h1 {
     word-spacing: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 b {
@@ -21,6 +22,10 @@ b {
 
 a {
     text-decoration: none;
+}
+
+p {
+    line-height: 28px;
 }
 
 em {
