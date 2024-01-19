@@ -1,4 +1,6 @@
-
+.gallery {
+    display: flex;
+}
 
 .image {
     width: 200px;
@@ -8,4 +10,5 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-clip: border-box;
 }
