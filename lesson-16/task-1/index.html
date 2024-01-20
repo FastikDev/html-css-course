@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Добавлен стиль для внешнего отступа 16px */
+        .form-control {
+            margin-bottom: 16px;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,14 +25,14 @@
         </div>
         <div class="form-control">
             <input type="checkbox" id="agree" name="agree">
-            <label>Accept terms and conditions</label>
+            <label for="agree">Accept terms and conditions</label>
         </div>
-        <div class="form-control">
-            <input type="radio" name="gender" id="male" class="choose-gender" checked>
+        <div class="form-control choose-gender">
+            <input type="radio" name="gender" id="male" checked>
             <label for="male">Male</label>
-            <input type="radio" name="gender" id="female" class="choose-gender">
+            <input type="radio" name="gender" id="female">
             <label for="female">Female</label>
-            <input type="radio" name="gender" id="secret" class="choose-gender">
+            <input type="radio" name="gender" id="secret">
             <label for="secret">Secret</label>
         </div>
         <div class="form-control">
