@@ -4,5 +4,8 @@ div.rectangle {
 
 .new.text::first-letter {
   color: green;
+}
+
+.new.text {
   font-size: 24px;
 }
