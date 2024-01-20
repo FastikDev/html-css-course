@@ -10,6 +10,9 @@
     flex-direction: column;
     text-align: center;
     position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .image-button {
@@ -17,9 +20,6 @@
     width: 200px;
     height: 50px;
     background-color: bisque;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
     opacity: 0.5;
     box-sizing: border-box;
     margin: auto;
