@@ -3,7 +3,6 @@ div {
 }
 
 table {
-  box-sizing: border-box;
   width: 500px;
   margin: 16px;
 }
@@ -22,6 +21,7 @@ thead {
 }
 
 td, th {
+  box-sizing: border-box;
   padding: 4px;
   text-align: right;
   line-height: 40px;
