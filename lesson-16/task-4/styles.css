@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.login-form {
+    background-color: aqua;
+    width: 300px;
+    height: 100%;
+    padding: 16px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    font-size: 16px;
+    font-family: monospace, sans-serif;
+}
+
+.form-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-input {
+    margin-bottom: 8px;
+}
+
+.form-label {
+    margin-bottom:  4px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
