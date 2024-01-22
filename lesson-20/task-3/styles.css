@@ -12,6 +12,13 @@ body {
     animation: blinking 2s linear infinite;
 }
 
+.spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .circle {
     box-sizing: border-box;
     width: 50px;
