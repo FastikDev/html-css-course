@@ -48,3 +48,12 @@ thead {
 tfoot {
   font-weight: 700;
 }
+
+tr td:nth-child(even) {
+  background-color: #eee;
+
+}
+
+tr td:nth-child(odd) {
+  background-color: #fff;
+}
