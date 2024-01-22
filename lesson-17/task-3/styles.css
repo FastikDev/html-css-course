@@ -33,12 +33,12 @@ tr:nth-child(odd) td:nth-child(2n-1) {
 
 tr:first-child>td,
 tr:last-child>td {
-    background-color: white;
+    background-color: white !important;
     border: none;
 }
 
 tr td:first-child,
 tr td:last-child {
-    background-color: white;
+    background-color: white !important;
     border: none;
 }
