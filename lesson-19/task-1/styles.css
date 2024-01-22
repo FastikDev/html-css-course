@@ -14,44 +14,36 @@
     opacity: 0.5;
     text-align: center;
     line-height: 100px;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
 }
 
 .linear:hover {
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
     transition-timing-function: linear;
-    width: 100%;
-    opacity: 1;
 }
 
 .ease:hover {
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
     transition-timing-function: ease;
-    width: 100%;
-    opacity: 1;
 }
 
 .ease-in:hover {
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
     transition-timing-function: ease-in;
-    width: 100%;
-    opacity: 1;
 }
 
 .ease-out:hover {
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
     transition-timing-function: ease-out;
-    width: 100%;
-    opacity: 1;
 }
 
 .ease-in-out:hover {
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
     transition-timing-function: ease-in-out;
+
+}
+
+.linear:hover,
+.ease:hover,
+.ease-in:hover,
+.ease-out:hover,
+.ease-in-out:hover {
     width: 100%;
     opacity: 1;
 }
