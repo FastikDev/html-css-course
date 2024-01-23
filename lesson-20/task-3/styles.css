@@ -27,7 +27,7 @@ body {
     border: 4px solid lightgrey;
     border-top-color: black;
     margin-bottom: 8px;
-    animation: spin 2s linear;
+    animation: spin 2s linear infinite;
 }
 
 @keyframes blinking {
@@ -48,6 +48,14 @@ body {
     0% {
         transform: rotate(0deg);
     }
+
+     50% {
+        transform: rotate(90deg);
+     }
+
+     75% {
+        transform: rotate(270deg);
+     }
 
     100% {
         transform: rotate(360deg);
