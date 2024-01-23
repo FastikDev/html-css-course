@@ -27,7 +27,7 @@ body {
     border: 4px solid lightgrey;
     border-top-color: black;
     margin-bottom: 8px;
-    animation: spin 2s linear infinite;
+    animation: spin 2s linear;
 }
 
 @keyframes blinking {
