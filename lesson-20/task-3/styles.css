@@ -34,7 +34,7 @@ body {
     border-top-color: black;
     border-radius: 50%;
     margin-bottom: 8px;
-    animation: rotate 2s linear;
+    animation: rotate 2s linear infinite;
     transform: rotate(45deg);
 }
 
@@ -53,10 +53,7 @@ body {
 }
 
 @keyframes rotate {
-    from {
-        transform: rotate(45deg);
-    }
-    
+
     to {
         transform: rotate(360deg);
     }
