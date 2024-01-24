@@ -87,11 +87,11 @@ body {
 }
 
 .nav-list-link {
-  width: 100%;
+  width: 100vw;
   text-decoration: none;
   color: white;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-left: 0.5em;
+  margin: 0 0.5em;
 }
