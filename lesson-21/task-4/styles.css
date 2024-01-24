@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
@@ -73,8 +73,10 @@ body {
 }
 
 .nav-list {
+  margin: 0;
   padding: 0;
   list-style-type: none;
+  line-height: 2em;
 }
 
 .nav-list-item {
@@ -82,16 +84,16 @@ body {
   background-color: #808080;
   color: white;
   margin-bottom: 0.5em;
-  line-height: 2em;
-  padding: 0 0.5em;
 }
 
 .nav-list-link {
-  width: 100vw;
-  text-decoration: none;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0 0.5em;
+   width: 100%;
+   display: linear-block;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   text-decoration: none;
+   color: white;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
