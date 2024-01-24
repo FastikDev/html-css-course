@@ -32,13 +32,12 @@ body {
 }
 
 .section,
-.news
- {
+.news {
   margin: 0.5em;
 }
 
 .navigation {
- max-width: 20%;
+  max-width: 20%;
 }
 
 .section {
@@ -52,7 +51,7 @@ body {
 
 .main {
   display: flex;
-width: 100%;
+  width: 100%;
 }
 
 .units-list {
@@ -68,7 +67,7 @@ width: 100%;
 
 .section__header {
   text-align: center;
-  font-size: 5wv;
+  font-size: 5vw;
 }
 
 .nav-list {
@@ -86,7 +85,7 @@ width: 100%;
 
 .nav-list-link {
   padding: 0 0.5em;
-  width: 100%
+  width: 100%;
   color: white;
   text-decoration: none;
   overflow: hidden;
