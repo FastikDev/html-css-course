@@ -83,6 +83,7 @@ body {
   display: flex;
   background-color: #808080;
   color: white;
+  margin: auto;
   margin-bottom: 0.5em;
 }
 
