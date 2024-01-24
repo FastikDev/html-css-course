@@ -10,7 +10,7 @@ html {
 .header {
   display: flex;
   color: white;
-  text-align: center;
+  padding: auto;
   line-height: 100%;
   background-image: linear-gradient(60deg, red, orange);
 }
