@@ -31,6 +31,7 @@ body {
 
 .main {
   width: 100%;
+  font-size: 1.25em;
   display: flex;
   flex-grow: 1;
 }
@@ -46,7 +47,6 @@ body {
 
 .section {
   max-width: 60%;
-  font-size: 1.25em;
 }
 
 .navigation,
