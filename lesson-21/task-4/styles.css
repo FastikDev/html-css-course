@@ -75,7 +75,6 @@ body {
 .nav-list {
   padding: 0;
   list-style-type: none;
-  line-height: 2em;
 }
 
 .nav-list-item {
@@ -84,6 +83,7 @@ body {
   background-color: #808080;
   color: white;
   margin-bottom: 0.5em;
+  line-height: 2em;
 }
 
 .nav-list-link {
