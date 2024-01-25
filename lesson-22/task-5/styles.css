@@ -33,7 +33,7 @@ body {
 
 .main {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1;
 }
 
 .navigation {
@@ -104,7 +104,7 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) {
   .navigation {
     width: 20%;
   }
@@ -129,10 +129,5 @@ body {
 
   .news {
     width: 20%;
-  }
-
-  .main {
-    min-height: 100%;
-    margin-bottom: auto;
   }
 }
