@@ -130,4 +130,9 @@ body {
   .news {
     width: 20%;
   }
+
+  .main {
+    min-height: 100%;
+    margin-bottom: auto;
+  }
 }
