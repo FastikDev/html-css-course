@@ -131,7 +131,7 @@ body {
     width: 20%;
   }
   
-  body {
-    justify-content: space-between;
+  .footer {
+    margin-top: auto;
   }
 }
