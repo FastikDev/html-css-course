@@ -14,17 +14,13 @@
             padding: 0 8px;
             line-height: 3em;
             cursor: pointer;
-
+            
             &-text {
                 color: #fff;
             }
 
             &:hover {
                 background-color: #9acd32;
-
-                .menu__item-text {
-                    color: yellow;
-                }
 
                 .submenu {
                     display: block;
@@ -50,6 +46,10 @@
                     color: #000;
                 }
             }
+        }
+
+        .menu__item_active>.menu__item-text {
+            color: yellow;
         }
     }
 }
