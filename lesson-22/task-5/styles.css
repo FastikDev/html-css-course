@@ -22,8 +22,6 @@ img {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
 }
 
 .footer {
@@ -35,12 +33,13 @@ body {
 .main {
   display: flex;
   flex-wrap: wrap;
-  margin-top: auto;
+  min-height: 100vh;
 }
 
 .navigation {
   width: 20%;
   padding: 0.5em;
+  flex: 1;
 }
 
 .news {
